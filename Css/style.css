@@ -1,0 +1,293 @@
+/* Imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Inter:wght@100&display=swap');
+/*
+    font-family: 'Cambo', serif;
+    font-family: 'Inter', sans-serif;
+*/
+
+/* --------------------------------------------------- */
+
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav ul
+{
+    background-color: #0B2C4A;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav ul img
+{
+    height: 35px;
+    width: 150px;
+    padding: 5px;
+    float: left;
+}
+
+.nav ul li{
+    padding: 5px 15px;
+    font-family: 'Inter', sans-serif;
+    float: right;
+}
+
+.nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.imageScroll
+{
+    display: flex;
+    justify-content: center;
+}
+
+.imageScroll img
+{
+    height: 600px;
+    width: 1000px;
+}
+
+.aboutText
+{
+    background-color: #0B2C4A;
+}
+
+.aboutText h3
+{
+    cursor: default;
+    color: white;
+    font-weight: 100;
+    font-family: 'Cambo', serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0%;
+    padding: 20px 0px 10px;
+}
+
+.aboutText p
+{
+    cursor: default;
+    color: white;
+    font-family: 'Cambo', serif;
+    text-align: center;
+    margin: 0%;
+    padding: 0px 20px 10px;
+}
+
+.aboutText hr
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 1px;
+    border: none;
+    background-color: #FAFF00;
+}
+
+/* .headtext
+{
+    background-color: #0B2C4A;
+    cursor: default;
+    color: white;
+    font-weight: 100;
+    font-family: 'Cambo', serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0%;
+    padding: 20px 0px 10px;
+} */
+
+h3.contacts
+{
+    font-size: 15px;
+}
+
+/* ------------------------contact form comment text css------------------- */
+/* @keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+span.name {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+
+span.name:nth-child(1) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span.name:nth-child(2) {
+    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span.name:nth-child(3) {
+    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span.name:nth-child(4) {
+    animation: fade-in 0.8s 0.12s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+} */
+
+/* ---------------------Contact form css------------------------ */
+.contactForm
+{
+    background-color: #0B2C4A;
+}
+
+.contactForm .info, .sub, .des, .submit
+{
+    display: flex;
+    justify-content: center;
+}
+
+.contactForm .sub input
+{
+    padding: 30px;
+    width: 520px;
+}
+
+.contactForm .des input
+{
+    padding: 60px;
+    width: 520px;
+}
+
+.contactForm .submit input
+{
+    padding: 15px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.contactForm .submit input:hover
+{
+    background-color: #FAFF00;
+    color: #0B2C4A;
+}
+
+.contactForm input
+{
+    background-color: #0B2C4A;
+    padding: 20px;
+    width: 250px;
+    color: white;
+    font-family: 'Cambo', serif;
+    border: 1px solid #FAFF00;
+    border-radius: 11px;
+    margin: 10px;
+}
+
+.boxes
+{
+    background-color: #0B2C4A;
+    display: flex;
+    justify-content: center;
+}
+
+.boxes .box
+{
+    border: 3px solid #FAFF00;
+    border-radius: 11px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin: 25px;
+}
+
+.boxes .box img
+{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 55px;
+}
+
+.boxes .box .names
+{
+    cursor: default;
+    color: white;
+    font-weight: 50;
+    font-family: 'Cambo', serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.boxes .box p
+{
+    padding: 5px;
+    color: white;
+}
+
+.footer
+{
+    background-color: #0B2C4A;
+    padding-top: 15px;
+}
+
+.footer ul
+{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+
+.footer li
+{
+    margin: 0%;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 50;
+    font-family: 'Cambo', serif;
+    font-size: 20px;
+}
+
+.footer hr
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 10%;
+    height: 1px;
+    border: none;
+    background-color: #FAFF00;
+}
+
+.copyright
+{
+    color: white;
+    font-weight: 50;
+    font-family: 'Cambo', serif;
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
